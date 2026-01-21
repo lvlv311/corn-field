@@ -1,0 +1,13 @@
+# Robots.txt - 防止搜索引擎检索
+User-agent: *
+Disallow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /articles/
+Disallow: /knowledge/
+Disallow: /books/
+Disallow: /outdoors/
+
+# 禁止所有爬虫访问整个网站
+User-agent: *
+Disallow: /
